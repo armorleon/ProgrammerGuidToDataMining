@@ -83,3 +83,37 @@ print( recommend('Hailey', users))
 
 print minkowski(users["Hailey"], users["Sam"], 2)
 
+
+def pearson(rating1, rating2):
+    sumX = 0
+    sumY = 0
+    sumXY = 0
+    sumX_sq = 0
+    sumY_sq = 0
+    common = False
+
+    n = 0
+    for x in rating1:
+        if x in rating2:
+            n += 1
+            sumX += rating1[x]
+            sumY += rating2[x]
+            sumXY += rating1[x] * rating2[x]
+            sumX_sq += rating1[x]**2
+            sumY_sq += rating2[x]**2
+            common = True
+
+    if n == 0:
+        return 0
+
+    r = 0
+    if common:
+        a = sumXY - (sumX * sumY/n)
+        b = sqrt(sumX_sq - (sumX**2)/n) * sqrt(sumY_sq - (sumY**2)/n)
+        r = a/b
+
+    return r
+
+print pearson(users["Angelica"], users["Bill"])
+print pearson(users["Angelica"], users["Hailey"])
+print pearson(users["Angelica"], users["Jordyn"])

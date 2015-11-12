@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cbbfd08-5b8e-4e1f-b5a2-d2281766773e" name="Default" comment="" />
+    <list default="true" id="6cbbfd08-5b8e-4e1f-b5a2-d2281766773e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter2.py" afterPath="$PROJECT_DIR$/chapter2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ProgrammerGuidToDataMining.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +30,8 @@
       <file leaf-file-name="chapter2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63508064" vertical-offset="0" max-vertical-offset="1350">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.5766129" vertical-offset="1244" max-vertical-offset="1845">
+              <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -43,6 +46,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/chapter2.py" />
       </list>
     </option>
   </component>
@@ -342,8 +346,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63508064" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.5766129" vertical-offset="1244" max-vertical-offset="1845">
+          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
           <folding />
         </state>
       </provider>
