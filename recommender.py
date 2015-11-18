@@ -241,6 +241,7 @@ class recommender:
        return recommendations[:self.n]
 
 
-r = recommender({})
+
+r = recommender(users)
 r.loadBookDB("./BX-Dump/")
-print r.recommend('278854')
+print r.recommend('171118')
